@@ -1,0 +1,53 @@
+* {
+    background-color: rgb(42, 54, 54);
+    color: white;
+    padding: 10px;
+  }
+
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    border: none;
+    border-radius: 15px;
+    background-color: darkcyan;
+    color: white;
+  }
+
+  .copy-btn {
+    width: fit-content;
+    height: 50px;
+  }
+
+  .generate-btn , .error{
+    display: flex;
+    margin: 20px;
+  }
+
+  .length-info {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .range input {
+    width: 100%;
+  }
+
+  .checkbox-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    gap: 10px;
+  }
+  
+  .error {
+    color:red
+  }
+  
